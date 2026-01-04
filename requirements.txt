@@ -40,7 +40,6 @@ pillow==11.3.0
 protobuf==6.33.2
 pyarrow==22.0.0
 pyasn1==0.6.1
-PyAudio==0.2.14
 pycparser==2.23
 pydeck==0.9.1
 pydivert==2.1.0
