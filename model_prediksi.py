@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 
@@ -31,3 +32,7 @@ plt.grid(True, linestyle='--', alpha=0.5)
 
 plt.tight_layout()
 plt.show()
+
+# Simpan model ke dalam file bernama 'gold_model.pkl'
+joblib.dump(model, 'gold_model.pkl')
+print("Model berhasil disimpan!")
